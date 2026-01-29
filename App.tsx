@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { 
   LayoutDashboard, 
@@ -11,7 +10,7 @@ import {
   X,
   RefreshCw,
   Settings,
-  CloudCheck,
+  Cloud,
   CloudOff
 } from 'lucide-react';
 import { Page, MenuItem, Transaction } from './types';
@@ -223,7 +222,7 @@ const App: React.FC = () => {
           {backendUrl && (
             <div className="flex items-center justify-between px-4 py-2 bg-green-50 rounded-xl mb-2">
               <div className="flex items-center gap-2 text-[10px] font-bold text-green-600">
-                <CloudCheck size={14} /> Cloud Active
+                <Cloud size={14} /> Cloud Active
               </div>
               <button onClick={() => setShowSettings(true)} className="text-gray-400 hover:text-blue-600 transition-colors"><Settings size={14} /></button>
             </div>
