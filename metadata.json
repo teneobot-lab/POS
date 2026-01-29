@@ -1,0 +1,5 @@
+{
+  "name": "Angkringan POS - Cepat & Simpel",
+  "description": "Aplikasi kasir (POS) khusus untuk Angkringan dengan fokus pada kecepatan transaksi, manajemen menu, dan laporan penjualan yang dapat diekspor ke PDF dan Excel.",
+  "requestFramePermissions": []
+}
